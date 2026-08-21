@@ -1,10 +1,10 @@
-# 💰 Expense Tracker (MERN Stack)
+#  Expense Tracker (MERN Stack)
 
 A full-stack personal finance tracker built with **MongoDB, Express, React, and Node.js**. Supports authenticated multi-user expense/income tracking, budget alerts, recurring transactions, receipt uploads, CSV export, and analytics dashboards powered by MongoDB aggregation pipelines.
 
 ---
 
-## ✨ Features
+##  Features
 
 ### Core
 - JWT-based signup/login with protected routes and bcrypt password hashing
