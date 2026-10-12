@@ -4,7 +4,7 @@ import asyncHandler from '../utils/asyncHandler.js';
 
 const toObjectId = (id) => new mongoose.Types.ObjectId(id);
 
-// @desc    Dashboard summary: total income, total expense, balance
+// @desc    Dashboard summary: total income, total expense, balance. 
 //          (optionally scoped to a date range)
 // @route   GET /api/analytics/summary
 // @access  Private
