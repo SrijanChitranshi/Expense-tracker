@@ -19,7 +19,7 @@ export const getSummary = asyncHandler(async (req, res) => {
   }
 
   // $facet lets us compute income totals and expense totals in a single
-  // round trip to Mongo instead of two separate queries.
+  // round trip to Mongo instead of two separate query
   const result = await Transaction.aggregate([
     { $match: match },
     {
